@@ -13,26 +13,6 @@ public enum Emoji: CaseIterable {
     case pound_symbol
     case hash
     case keycap_asterisk
-    case digit_zero
-    case zero
-    case digit_one
-    case one
-    case digit_two
-    case two
-    case digit_three
-    case three
-    case digit_four
-    case four
-    case digit_five
-    case five
-    case digit_six
-    case six
-    case digit_seven
-    case seven
-    case digit_eight
-    case eight
-    case digit_nine
-    case nine
     case copyright
     case registered
     case bangbang
@@ -2819,46 +2799,6 @@ public enum Emoji: CaseIterable {
             return ["hash"]
         case .keycap_asterisk:
             return ["keycap_asterisk"]
-        case .digit_zero:
-            return ["digit_zero"]
-        case .zero:
-            return ["zero"]
-        case .digit_one:
-            return ["digit_one"]
-        case .one:
-            return ["one"]
-        case .digit_two:
-            return ["digit_two"]
-        case .two:
-            return ["two"]
-        case .digit_three:
-            return ["digit_three"]
-        case .three:
-            return ["three"]
-        case .digit_four:
-            return ["digit_four"]
-        case .four:
-            return ["four"]
-        case .digit_five:
-            return ["digit_five"]
-        case .five:
-            return ["five"]
-        case .digit_six:
-            return ["digit_six"]
-        case .six:
-            return ["six"]
-        case .digit_seven:
-            return ["digit_seven"]
-        case .seven:
-            return ["seven"]
-        case .digit_eight:
-            return ["digit_eight"]
-        case .eight:
-            return ["eight"]
-        case .digit_nine:
-            return ["digit_nine"]
-        case .nine:
-            return ["nine"]
         case .copyright:
             return ["copyright"]
         case .registered:
@@ -9877,66 +9817,6 @@ public enum Emoji: CaseIterable {
         case .keycap_asterisk:
             return ["\u{002a}\u{fe0f}\u{20e3}",
                     "\u{002a}\u{20e3}"]
-        case .digit_zero:
-            return ["\u{0030}",
-                    "\u{0030}\u{fe0f}"]
-        case .zero:
-            return ["\u{0030}\u{fe0f}\u{20e3}",
-                    "\u{0030}\u{20e3}"]
-        case .digit_one:
-            return ["\u{0031}",
-                    "\u{0031}\u{fe0f}"]
-        case .one:
-            return ["\u{0031}\u{fe0f}\u{20e3}",
-                    "\u{0031}\u{20e3}"]
-        case .digit_two:
-            return ["\u{0032}",
-                    "\u{0032}\u{fe0f}"]
-        case .two:
-            return ["\u{0032}\u{fe0f}\u{20e3}",
-                    "\u{0032}\u{20e3}"]
-        case .digit_three:
-            return ["\u{0033}",
-                    "\u{0033}\u{fe0f}"]
-        case .three:
-            return ["\u{0033}\u{fe0f}\u{20e3}",
-                    "\u{0033}\u{20e3}"]
-        case .digit_four:
-            return ["\u{0034}",
-                    "\u{0034}\u{fe0f}"]
-        case .four:
-            return ["\u{0034}\u{fe0f}\u{20e3}",
-                    "\u{0034}\u{20e3}"]
-        case .digit_five:
-            return ["\u{0035}",
-                    "\u{0035}\u{fe0f}"]
-        case .five:
-            return ["\u{0035}\u{fe0f}\u{20e3}",
-                    "\u{0035}\u{20e3}"]
-        case .digit_six:
-            return ["\u{0036}",
-                    "\u{0036}\u{fe0f}"]
-        case .six:
-            return ["\u{0036}\u{fe0f}\u{20e3}",
-                    "\u{0036}\u{20e3}"]
-        case .digit_seven:
-            return ["\u{0037}",
-                    "\u{0037}\u{fe0f}"]
-        case .seven:
-            return ["\u{0037}\u{fe0f}\u{20e3}",
-                    "\u{0037}\u{20e3}"]
-        case .digit_eight:
-            return ["\u{0038}",
-                    "\u{0038}\u{fe0f}"]
-        case .eight:
-            return ["\u{0038}\u{fe0f}\u{20e3}",
-                    "\u{0038}\u{20e3}"]
-        case .digit_nine:
-            return ["\u{0039}",
-                    "\u{0039}\u{fe0f}"]
-        case .nine:
-            return ["\u{0039}\u{fe0f}\u{20e3}",
-                    "\u{0039}\u{20e3}"]
         case .copyright:
             return ["\u{00a9}\u{fe0f}"]
         case .registered:
